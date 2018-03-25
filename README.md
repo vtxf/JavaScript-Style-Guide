@@ -21,10 +21,10 @@
 ```
 // 好的命名方式
 var maxCount = 10;
-var tableTitle = 'LoginTable';
+var tableTitle = "LoginTable";
 // 不好的命名方式
 var setCount = 10;
-var getTitle = 'LoginTable';
+var getTitle = "LoginTable";
 ```
 ### 1.2 函数
 命名方法：小驼峰式命名法。  
@@ -59,7 +59,7 @@ function getName() {
 示例：  
 ```
 var MAX_COUNT = 10;
-var URL = 'http://www.baidu.com';
+var URL = "http://www.baidu.com";
 ```
 ### 1.4 构造函数或者类名
 介绍：在JS中，构造函数也属于函数的一种，只不过采用new 运算符创建对象。  
@@ -72,7 +72,7 @@ var URL = 'http://www.baidu.com';
 function Student(name) {
     this.name = name;
 }
-var st = new Student('tom');
+var st = new Student("tom");
 ```
 ### 1.5 类的成员
 类的成员包含：  
@@ -104,8 +104,8 @@ function Student(name) {
         _name = value;
     }
 }
-var st = new Student('tom');
-st.setName('jerry');
+var st = new Student("tom");
+st.setName("jerry");
 console.log(st.getName()); // => jerry：输出_name私有变量的值
 ```
 ## 2. 注释规范
