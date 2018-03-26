@@ -180,7 +180,7 @@ function mergeCells(grid, cols, isAllSome) {
 
 　　在团队开发或者引入第三方JS文件时，有时会造成全局对象的名称冲突，比如a.js有个全局函数sendMsg()，b.js也又有个全局函数sendMsg()，引入a.js和b.js文件时，会造成sendMsg()函数冲突。
 
-示例：
+示例：  
 ![全局变量冲突示例图片](3.1.jpg)
 
 ### 3.2 单全局变量
@@ -203,4 +203,4 @@ function mergeCells(grid, cols, isAllSome) {
 ### 4.1 所有js文件一律使用UTF8编码
 ### 4.2 换行符使用LF，而不使用CRLF 
 ### 4.3 缩进为4个空格
-### 4.4 使用双引号，尽量不使用单引号
+### 4.4 优先使用单引号
